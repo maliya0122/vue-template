@@ -4,7 +4,7 @@
  * @LastEditTime: 2020-06-03 15:22:47
 -->
 <template>
-   <div>查询日志</div>
+   <div>log</div>
 </template>
 
 <script>
