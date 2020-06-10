@@ -1,0 +1,62 @@
+.green{
+  color: #67C23A !important;
+}
+.red{
+  color: #F56C6C !important;
+}
+.black{
+  color: #000 !important;
+}
+.menu-box{
+  text-align: left;
+  padding-left:2%;
+  height: 80px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  i{
+    margin-right: 20px;
+  }
+  .el-button{
+    margin-top: 20px;
+    .is-plain{
+      color: #409EFF
+    }
+  }
+  .el-button:hover, .el-button:focus{
+    color: #ecf5ff;
+    background: #409EFF;
+    border-color: #409EFF;
+  }
+  // 激活
+  .select {
+    color: #ecf5ff;
+    background: #409EFF;
+    border-color: #409EFF;
+  }
+  //未激活
+  .default {
+    color: #409EFF;
+    background: #ecf5ff;
+    border-color: #b3d8ff;
+  }
+}
+.content-box{
+  padding-top: 40px;
+  background-color: rgb(249, 249, 249);
+  .list-table{
+    width: 98%;
+    text-align: left;
+    .list{
+      max-height:800px;
+      overflow-x: auto;
+    }
+    .checked-img {
+      color: #409EFF;
+      cursor: pointer;
+    }
+    .content-hover{
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}

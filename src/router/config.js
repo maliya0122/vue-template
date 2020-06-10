@@ -1,7 +1,7 @@
 /*
  * @Descripttion:
  * @Date: 2020-06-03 17:03:32
- * @LastEditTime: 2020-06-08 20:17:25
+ * @LastEditTime: 2020-06-09 09:49:33
  */
 export default [
   {
@@ -10,39 +10,39 @@ export default [
     children: [
       {
         path: 'about1',
-        name: '测试',
+        name: 'about1',
         children: [
           {
             path: 'about11',
-            name: '苹果'
+            name: 'about11'
           }
         ]
       },
       {
         path: 'about2',
-        name: '三个',
+        name: 'about2',
         children: [
           {
             path: 'about21',
-            name: '申请'
+            name: 'about21'
           },
           {
             path: 'about22',
-            name: '游戏'
+            name: 'about22'
           },
           {
             path: 'about23',
-            name: '话题'
+            name: 'about23'
           }
         ]
       },
       {
         path: 'about3',
-        name: '33',
+        name: 'about3',
         children: [
           {
             path: 'about33',
-            name: '申请33'
+            name: 'about33'
           }
         ]
       }
@@ -59,27 +59,20 @@ export default [
       {
         path: 'options',
         name: '选项'
-      },
-      {
-        path: 'hehe',
-        name: '呵呵'
       }
     ]
   },
   {
-    path: 'user',
-    name: '用户',
+    path: 'system-data',
+    name: '系统数据',
     children: [
       {
-        path: 'user1',
-        name: '用户1',
-        children: [
-          {
-            path: 'user11',
-            name: '用户11'
-          }
-
-        ]
+        path: 'ad-data',
+        name: '广告数据'
+      },
+      {
+        path: 'game-data',
+        name: '游戏数据'
       }
     ]
   }

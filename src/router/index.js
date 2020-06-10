@@ -4,7 +4,7 @@
  * @Author: sueRimn
  * @Date: 2019-10-24 19:43:44
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-06-08 20:01:20
+ * @LastEditTime: 2020-06-09 09:47:24
  */
 import Vue from 'vue'
 import Router from 'vue-router'
@@ -31,10 +31,10 @@ export const constRouterConfig = [
   }
 ]
 
-// 右侧菜单栏
+// 左侧菜单栏
 export const menuMap = syncRouterConfig
 
-// fullPath：每个都把路径写出来，给后面component
+// fullPath：每个都把路径写出来
 export const transformRouterConfig = (routerRoot, parent, index) => {
   const fullPath = parent.fullPath
     ? `${parent.fullPath}/${routerRoot.path}`
@@ -56,7 +56,7 @@ export const transformRouterConfig = (routerRoot, parent, index) => {
   return tmpRouterRoot
 }
 
-// fullPath转化到path路径
+// fullPath转化到path路径，传给component
 const transFullPath = (child, treeRoute) => {
   if (!child.children) {
     treeRoute.push({

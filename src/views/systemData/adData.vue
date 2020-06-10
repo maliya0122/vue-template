@@ -1,10 +1,10 @@
 <!--
  * @Descripttion:
- * @Date: 2020-06-08 17:14:39
- * @LastEditTime: 2020-06-08 17:14:51
+ * @Date: 2020-06-09 09:35:19
+ * @LastEditTime: 2020-06-09 09:51:09
 -->
 <template>
-   <div>user11</div>
+   <div>adData</div>
 </template>
 
 <script>
